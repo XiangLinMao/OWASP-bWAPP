@@ -16,6 +16,6 @@ RUN wget -O /tmp/bwapp.zip https://sourceforge.net/projects/bwapp/files/latest/d
 # Setup
 RUN sed -i 's/db_password = "bug"/db_password = ""/g' /app/admin/settings.php
 
-EXPOSE 80 3306
+EXPOSE 116600 3306
 CMD ["/run.sh"]
 
